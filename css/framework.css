@@ -4,6 +4,33 @@
     box-sizing: border-box;
 }
 
+.container-fluid-dx{
+    width: 80%;
+}
+.container-fluid-sx{
+    width: 20%;
+}
+    
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.row{
+    display: flex;
+}
+    
+
 
 .col-xs {
     flex-grow: 1;
