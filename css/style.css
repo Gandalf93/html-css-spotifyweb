@@ -54,7 +54,7 @@ h2{
 .container-fluid-sx{
     background-color: black;
     color: white;
-    min-height: 600px;
+    min-height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,7 +63,10 @@ h2{
 .padding-col-sx{
     padding: 0 10%;
 }
-    
+
+.padding-col-sx-end{
+    padding: 10%;
+}
 
 .logo{
     vertical-align: middle;
@@ -90,3 +93,10 @@ div a{
     font-size: 18px;
 }
 
+hr{
+    color: grey;
+    background-color: grey;
+    border: none;
+    height: 1px;
+    margin: 10px 0;
+}
