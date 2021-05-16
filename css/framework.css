@@ -334,7 +334,7 @@
 /* MIN WIDTH 1200PX LG - LAPTOPS AND DESKTOPS */
 @media screen and (min-width:1200px) {
     .row{
-        flex-flow: nowrap;
+        flex-flow: wrap;
     }
 
     .col-lg {
