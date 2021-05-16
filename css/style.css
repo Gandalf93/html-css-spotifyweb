@@ -5,7 +5,8 @@
 }
 
 .clearfix{
-    height:600px
+    height:100vh;
+    
 }
     
 
@@ -15,6 +16,7 @@
     width: 80%;
     position: fixed;
     right: 0;
+    top: 0;
 }
    
 .upgrade{
@@ -36,8 +38,9 @@
 
 .container-fluid-dx{
     background-color: #141922;
-    height: 600px;
+    height: 100vh;
     overflow-y: scroll;
+    padding-top: 10%;
 }
     
 h2{
@@ -48,7 +51,7 @@ h2{
  nav .row .box{
     min-height: 30px;
     background-color: aquamarine;
-    margin-top: 100px;
+    
  }
 
  .coldx-last-row{
@@ -64,16 +67,17 @@ h2{
  .container-fluid-sx{
      background-color: black;
      color: white;
-     height: 600px;
+     height: 100vh;
      position: relative;
      line-height: 25px;
  }
+
  .padding-col-sx{
      padding: 0 10%;
  }
  
  .padding-col-sx-end{
-     padding: 10%;
+     padding-left: 10%;
      margin: 25% 0;
      position: absolute;
      bottom: 40;
