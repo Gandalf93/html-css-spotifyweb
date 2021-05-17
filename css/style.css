@@ -10,9 +10,14 @@
 }
     
 
+
+
+/* CONTAINER DESTRO */
+
+/* barra fixed */
 .barra-alta{
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100px;
+    height: 60px;
     width: 80%;
     position: fixed;
     right: 0;
@@ -24,8 +29,8 @@
   border: 1px solid white;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 5px;
   border-radius: 30px;
 }
 
@@ -34,13 +39,14 @@
    color: white;
 } 
 
-/* CONTAINER DESTRO */
+/* fine barra fixed */
 
 .container-fluid-dx{
     background-color: #141922;
     height: 100vh;
     overflow-y: scroll;
-    padding-top: 100px;
+    padding-top: 90px;
+    width: 80%;
 }
     
 h2{
@@ -69,50 +75,82 @@ h2{
      color: white;
      height: 100vh;
      position: relative;
-     line-height: 25px;
+     width: 20%;
+     
+ }
+
+ .container-fluid-sx div a{
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    
+ }
+ .container-fluid-sx div a img{
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
  }
 
  .padding-col-sx{
      padding: 0 10%;
  }
  
- .padding-col-sx-end{
+ .col-sx-end{
      padding-left: 10%;
-     margin: 25% 0;
      position: absolute;
-     bottom: 40;
- }
+     bottom: 80px;
+  }
+     
+  .fa-plus{
+      color: black;
+      background-color: grey;
+      padding: 10px ;
+      margin-right: 10px;
+  }  
  
  .logo{
      vertical-align: middle;
-     height: 80px;
+     height: 60px;
      display: flex;
      align-items: center;
- }
+     
+     width: 100%;
+  }
  .logo img{
      height: 60%;
+  }
+     
+
+ .logo-icon{
+     display: none;
  }
      
  ul{
      list-style: none
  }
  
- div a{
-     text-decoration: none;
-     color: grey;
- }
  
  .nome{
      color: white;
      font-size: 18px;
  }
  
+ h3{
+     color: white;
+ }
  hr{
      color: grey;
      background-color: grey;
      border: none;
      height: 1px;
-     margin: 10px 0;
+     margin-right: 10%;
+ }
+
+ .grey-icon{
+     background-color: grey;
+     border-radius: 50%;
  }
  
  /* FOOTER */
@@ -132,13 +170,59 @@ h2{
  }
 
  /* XS */
- @media screen and(max-width: 768px){}
- /* SM */
- @media screen and (max-width: 992px) {}  
- /* MD  */
- @media screen and (max-width: 1200px){}
- /* LG */
- @media screen and (min-width: 1200px){}
+ @media screen and (max-width: 768px){
+    .container-fluid-dx{
+        width: 95%;
+        
+    }
+    .container-fluid-sx{
+        width: 5%;
+    }
+    .container-fluid-sx div a span{
+        display: none;
+    }
+
+    .container-fluid-sx div a .fa-plus{
+        display: none;
+    }
+    .barra-alta{
+        width: 95%;
+    }  
+
+    .logo-img{
+        display: none;
+    }
+    .logo-icon{
+        display: unset;
+        height: 20px;
+        width: 20px;
+    }
+        
+    .container-fluid-sx div a img{
+        margin-right: unset;
+   }
+
+   .logo{
+    vertical-align: middle;
+    height: unset;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    }
+    
+
+    hr{
+        display: none;
+    }
+        
+}
+/* SM */
+@media screen and (max-width: 992px) {}  
+/* MD  */
+@media screen and (max-width: 1200px){}
+/* LG */
+@media screen and (min-width: 1200px){}
+
 
  
    

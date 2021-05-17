@@ -7,6 +7,7 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 <body>
 
@@ -17,43 +18,73 @@
             <div>
                 <!-- LOGO -->
                 <div class="logo padding-col-sx">
-                    <img src="img/logo.svg" alt="logo spotify">
+                    <img class="logo-img" src="img/logo.svg" alt="logo spotify">
+                    <img class="logo-icon" src="img/logo-small.svg" alt="logo-icon">
                 </div>
                 <!-- LISTA 1 -->
                 <div class="padding-col-sx">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Cerca</a></li>
-                        <li><a href="#">La tua libreria</a></li>
+                        <li>
+                            <a href="#">
+                                <img src="img/home.svg" alt="home-icon">
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="img/search.svg" alt="search-icon">
+                                <span>Cerca</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="img/libreria.svg" alt="library-icon">
+                                <span>Libreria</span>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
                 <!-- LISTA 2 -->
                 <div class="padding-col-sx">
-                    <h3>Playlist</h3>
+                    <a href="#">
+                        <span><h3>Playlist</h3></span>
+                    </a>
                 </div>
                 <div class="padding-col-sx">
-                    <span>
-                        <a href="#">Crea playlist</a>
-                    </span>
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                        <span>Crea playlist</span>
+                    </a>
                 </div>
+                    
+                    
                 <!-- LISTA 3 LUNGA                -->
                 <div class="padding-col-sx">
                     <ul>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
+                        <li><a href="#"><span> Nome playlist</span></a></li>
+                        <li><a href="#"><span> Nome playlist</span></a></li>
+                        <li><a href="#"><span> Nome playlist</span></a></li>
+                        <li><a href="#"><span> Nome playlist</span></a></li>
+                        <li><a href="#"><span> Nome playlist</span></a></li>
+                        <li><a href="#"><span> Nome playlist</span></a></li>
+                        <li><a href="#"><span> Nome playlist</span></a></li>
                     </ul>
                 </div>
             </div>
                 <!-- SEZIONE FINALE CLN SX            -->
-            <div class="padding-col-sx-end">
-                <a href="#">Installa app</a>
+            <div class="col-sx-end">
+                <a href="#">
+                    <img src="img/download.svg" alt="download-icon">
+                    <span>Installa app</span>
+                </a>
                 <hr>
-                <a class="nome" href="#">John doe</a>
+                <a href="#">
+                    <img class="grey-icon" src="img/profile.svg" alt="profile-icon">
+                    <span>John Doe</span>
+                </a>
             </div>
         </section>
 

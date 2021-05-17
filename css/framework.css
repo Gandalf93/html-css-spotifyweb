@@ -31,18 +31,13 @@
 }
 
 /* MAX WIDTH 768PX XS - PHONES */
-
 @media screen and(max-width:768px) {
 
     .row{
         flex-flow: wrap;
     }
 
-    .col-xs {
-        flex-grow: 1;
-        flex-basis: 0;
-        max-width: 100%;
-    }
+    
         
     .col-xs-1 {
         flex-basis: calc((100% / 12) * 1);
@@ -132,18 +127,13 @@
 }
 
 /* MAX WIDTH 992PX SM - TABLETS */
-
-@media screen and (min-width:768px){
+@media screen and (max-width:992px){
 
     .row{
         flex-flow: wrap;
     }
 
-    .col-sm {
-        flex-grow: 1;
-        flex-basis: 0;
-        max-width: 100%;
-    }
+  
         
     .col-sm-1 {
         flex-basis: calc((100% / 12) * 1);
@@ -233,18 +223,13 @@
 }
 
 /* >992PX MD - SMALL LAPTOPS */
-@media screen and (min-width:992px){
+@media screen and (max-width:1199px){
 
     .row{
         flex-flow: wrap;
     }
 
-    .col-md {
-        flex-grow: 1;
-        flex-basis: 0;
-        max-width: 100%;
-    }
-        
+    
     .col-md-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -334,14 +319,10 @@
 /* MIN WIDTH 1200PX LG - LAPTOPS AND DESKTOPS */
 @media screen and (min-width:1200px) {
     .row{
-        flex-flow: wrap;
+        flex-flow: nowrap;
     }
 
-    .col-lg {
-        flex-shrink: 1;
-        flex-basis: 0;
-        max-width: 100%;
-    }
+
         
     .col-lg-1 {
         flex-basis: calc((100% / 12) * 1);
@@ -428,6 +409,8 @@
     }
 
 }
+
+
 
 
 
