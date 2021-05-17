@@ -150,17 +150,14 @@ nav .row .box a:hover{
 .create{
     margin: 10px 0;
 }
-.fa-plus{
-    color: black;
-    background-color: grey;
-    padding: 10px ;
-    margin-right: 10px;
-} 
+
 
 .col-sx-end{
      padding-left: 10%;
      position: absolute;
-     bottom: 80px;
+     bottom: 90px;
+     background-color: black;
+     width: 80%;
 }
      
 #hr-sx{
@@ -226,19 +223,126 @@ nav .row .box a:hover{
  /* FOOTER */
  .footer-container{
      background-color:#282828;
-     height: 80px;
-     padding: 20px 10px;
+     height: 100px;
+     padding: 20px 0;
      position: fixed;
      bottom: -10px;
      width: 100%;
+    
 }
- 
- .footer-container .box{
-     min-height: 40px;
-     background-color: aquamarine;
-     margin: 0;
+ .footer-row{
+    display: flex;
 }
- 
+   
+    
+ .footer-box{
+     margin: 0 10px;
+     display: flex;
+     align-items: center;
+}
+    
+
+
+.centr i{
+    color: white;
+}
+
+.dx i {
+    color: white;
+}
+     
+.sx{
+    width: 30%;
+} 
+
+.dx{
+    width: 30%;
+}
+     
+.text-foot-sx{
+    display: flex;
+    flex-flow: column;
+}     
+
+.footer-box img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.footer-box span{
+    color: white;
+}
+.footer-box a{
+    text-decoration: none;
+    color: grey;
+}
+
+.foot-sx-i{
+    color: grey;
+    margin-left: 10%;
+}
+
+.foot-sx-i i:hover{
+    color: white;
+}
+
+.foot-sx-i i{
+    margin-left: 10px;
+}
+.centr{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+}
+ .foot-centr-row-up{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }   
+.foot-centr-row-up i{
+   margin: 10px;
+}
+.foot-centr-row-down{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.fa-play-circle:hover{
+    transform: scale(1.5, 1.5);
+}
+
+#time-line{
+    color: grey;
+    background-color: grey;
+    border: none;
+    height: 3px;
+    margin:10px 5px;
+    min-width: 60%;
+}
+
+.foot-dx-row{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+    
+
+
+#hr-foot-dx{
+    color: grey;
+    background-color: grey;
+    border: none;
+    height: 3px;
+    margin:10px 5px;
+    min-width: 60%;
+}
+    
+    
+     
  /* XS */
  @media screen and (max-width: 767px){
     .container-fluid-dx{
@@ -279,7 +383,7 @@ nav .row .box a:hover{
     margin-top: 5px;
     }
     
-    hr{
+    #hr-sx{
         display: none;
     }
 }
@@ -319,6 +423,9 @@ nav .row .box a:hover{
     }
 }
     
+    
+
+
 
 
 
