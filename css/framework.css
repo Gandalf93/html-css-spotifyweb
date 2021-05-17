@@ -31,14 +31,12 @@
 }
 
 /* MAX WIDTH 768PX XS - PHONES */
-@media screen and(max-width:768px) {
+
 
     .row{
         flex-flow: wrap;
     }
 
-    
-        
     .col-xs-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -124,17 +122,16 @@
         margin-left: calc((100% / 12) * 11);
     }
 
-}
 
+    
+        
 /* MAX WIDTH 992PX SM - TABLETS */
-@media screen and (max-width:992px){
+@media screen and (min-width:768px){
 
     .row{
         flex-flow: wrap;
     }
 
-  
-        
     .col-sm-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -221,15 +218,15 @@
     }
 
 }
-
+  
+        
 /* >992PX MD - SMALL LAPTOPS */
-@media screen and (max-width:1199px){
+@media screen and (min-width:992px){
 
     .row{
         flex-flow: wrap;
     }
 
-    
     .col-md-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -315,6 +312,7 @@
         margin-left: calc((100% / 12) * 11);
     }
 }
+    
 
 /* MIN WIDTH 1200PX LG - LAPTOPS AND DESKTOPS */
 @media screen and (min-width:1200px) {
@@ -322,8 +320,6 @@
         flex-flow: nowrap;
     }
 
-
-        
     .col-lg-1 {
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
@@ -409,6 +405,10 @@
     }
 
 }
+
+
+
+        
 
 
 
